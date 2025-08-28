@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "480485201461",
+    "project_id": "louie-dreams",
+    "storage_bucket": "louie-dreams.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480485201461:android:37dcfb19020e466ef7037c",
+        "android_client_info": {
+          "package_name": "com.example.louie_dreams"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL5RUwoDCwsUau_-TbOyPrpwhLs8XU1-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

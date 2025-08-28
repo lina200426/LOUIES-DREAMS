@@ -1,0 +1,65 @@
+name: louie_dreams
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_local_notifications: ^19.4.1
+  firebase_messaging: ^15.2.10
+  # Firebase core + auth
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.4
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # Stripe payments
+  flutter_stripe: ^11.0.0
+
+  # Image picker & cropper
+  image_picker: ^1.1.2
+  image_cropper: ^8.0.2
+
+  # Cached network images
+  cached_network_image: ^3.4.1
+
+  # Google Maps
+  google_maps_flutter: ^2.10.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Localization
+  intl: ^0.19.0
+
+  # In-app reviews
+  in_app_review: ^2.0.9
+
+  # JSON serialization
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.11
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - img/
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "img/logo.jpg"
